@@ -1,6 +1,7 @@
 import java.util.Scanner;
-public class TicTacToe {
+public class TicTac{
     public static void main(String[] args) {
+        System.out.println("Welcome to tic tac toe!");
         Scanner s = new Scanner(System.in);
         char[][] board = new char[3][3];
         for (int i = 0; i < 3; i++) {
